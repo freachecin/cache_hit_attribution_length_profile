@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "freachecin-cvalgo_jd154"
+name = "freachecin-cache_hit_attribution_length_profile"
 version = "0.1.0"
 description = "按段落统计计算机视觉算法工程师·缓存命中率的归因相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://freachecin.github.io"
-Repository = "https://github.com/freachecin/cvalgo_jd154"
-Issues = "https://github.com/freachecin/cvalgo_jd154/issues"
+Repository = "https://github.com/freachecin/cache_hit_attribution_length_profile"
+Issues = "https://github.com/freachecin/cache_hit_attribution_length_profile/issues"
 
 [project.scripts]
-cvalgo_jd154 = "cvalgo_jd154:main"
+cache_hit_attribution_length_profile = "cache_hit_attribution_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["cvalgo_jd154"]
+py-modules = ["cache_hit_attribution_length_profile"]
